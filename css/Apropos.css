@@ -1,0 +1,302 @@
+
+/*la taille régulier*/
+
+/*@media screen and (min-width 1000px) and (max-width 2500px){*/
+
+body{
+    background-color: #55e7ff;
+    border: 11px inset #201148;  
+      margin: 0 auto;
+     padding: 0 auto;
+      height: auto;
+    width: auto;
+}
+
+
+header{
+    
+    
+/*    background-color: yellow;*/
+/*    width:auto;*/
+/*    height: 20px;*/
+ 
+    padding-bottom: 94px;
+    
+/*    border:20px black;  */
+
+}
+
+/*
+header{
+    
+    
+ background-color: green;
+    width: 330px;
+    height: 85px;
+   
+    
+  border-radius: 0px 10px 0px 0px;
+
+border: 15px outset #706765;
+    
+   
+    margin-bottom: -15px;
+    margin-right: auto;
+    
+
+}
+*/
+
+
+
+
+.BigTitle{
+ background-color: 	#00ccfd;
+    height: 100px;
+    width: 300px;
+/*    text-align: center;*/
+    text-align:center;
+  font-size: 38px;
+    float: left;
+    border-radius: 0px 0px 40px 0px;
+    border: 10px outset #201148;
+}
+
+.SmallTitle{
+ background-color: #201148;
+    border: 7px outset #00ccfd;
+    height: 70px;
+     width: 215px;
+  text-align: center;
+    vertical-align:middle;
+      float: left;
+    color: white;
+}
+
+
+ul{
+    display:inline;
+
+  
+}
+
+
+
+li{
+  
+font-size: 30px;
+ list-style: none;
+        display:initial;
+
+
+   background-color: #00ccfd;
+/*
+    width: 300px;
+    height: 150px;
+*/
+    float: right;
+   
+    
+}
+
+
+
+#présentation{  background-color: #00ccfd;
+    width: 238px;
+    height: 750px;
+    
+    margin-right: auto;
+    
+    border: 11px inset #201148; 
+    
+    
+}
+
+
+#resume{  
+    background-color: #00ccfd;
+   width: 72%;
+    height: 900px;
+    margin-left:25%;
+    
+    margin-top: -750px;
+   
+    border: 5px outset #201148;
+    
+}
+
+
+
+#cv{  background-color: #00ccfd;
+     border: 5px outset #201148;
+    width: 350px;
+    height: 250px;
+    margin-top: 50px;
+    margin-left: auto;
+}
+
+/*}*/
+
+
+
+/*la version ipad   */
+
+/*@media screen and (min-width: 100px){*/
+@media only screen and (max-width: 1075px) {
+    
+    
+    .BigTitle{
+
+    height: 80px;
+    width: 200px;
+/*    text-align: center;*/
+    text-align:center;
+  font-size: 25px;
+    float: left;
+}
+
+.SmallTitle{
+
+    height: 50px;
+     width: 17%;
+  text-align: center;
+/*    vertical-align:middle;*/
+      float: left;
+    font-size: 20px;
+
+}
+    
+    
+
+    
+#présentation{  
+/*    width: 170px;*/
+    width: 22%;
+    height: 550px;
+    
+    margin-right: auto;
+    
+    border: 10px inset  #201148; 
+    
+    
+}    
+
+#resume{  
+ 
+    width: 74%;
+    height: 550px;
+    
+/*    margin-left:33%;*/
+    
+    float: right;
+    
+    margin-top: -570px;
+   
+    border: 10px outset  #201148;
+    
+}
+    
+    
+    
+    #cv{  
+     border: 5px outset #201148;
+    width: auto;
+    height: 150px;
+    margin-top: 50px;
+    margin-left: auto;
+   text-align: center;
+   
+}
+    
+}
+
+
+/*la version iphone   */
+
+/*@media screen and (min-width: 100px){*/
+@media only screen and (max-width: 550px) {
+  
+    
+    header{
+    
+    
+/*    background-color: yellow;*/
+/*    width:auto;*/
+/*    height: 20px;*/
+ 
+    padding-bottom: 0px;
+    
+/*    border:20px black;  */
+
+}
+    
+       
+    .BigTitle{
+
+    height: 50px;
+    width: 150px;
+/*    text-align: center;*/
+    text-align:center;
+  font-size: 28px;
+    float: left;
+        
+      
+}
+
+.SmallTitle{
+
+    height: 30px;
+    max-width: auto;
+  text-align: center;
+    vertical-align:middle;
+      float: left;
+    font-size: 13px;
+}
+    
+    
+    
+/*
+  body {
+    background-color: black;
+  }
+*/
+    
+    
+#présentation{  
+    width: auto;
+    height: 275px;
+    
+    margin-right: auto;
+    
+    border: 11px inset  #201148; 
+    
+    
+}    
+
+#resume{  
+
+    width: auto;
+    height: 600px;
+ float:none;
+   margin-left:0%; 
+    
+    margin-top: 0px;
+   
+    border: 5px outset  #201148;
+    
+    
+}
+    
+       #cv{  background-color: #00ccfd;
+     border: 5px outset #201148;
+    width: auto;
+    height: 150px;
+    margin-top: 1px;
+    margin-left: auto;
+   text-align: center;
+   
+}
+    
+    
+}
+    
