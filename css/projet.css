@@ -3,7 +3,7 @@ body{
     border-radius: 0px 10px 0px 0px;
     height: auto;
     width: auto;
-    border: 11px inset #706765;    
+    border: 11px inset #201148;    
     
 /*     width: 100%;*/
     margin: 0 auto;
@@ -16,7 +16,7 @@ body{
 
 
 header{
-   background-color: #201148;
+   background-color: #55e7ff;
     
     
     border: 10px solid #201148;
@@ -24,7 +24,7 @@ header{
 
 /*    width:350px;*/
     
-    height: 55px;
+    height: 50px;
     font-size: 15px;
     text-align: center;
     
@@ -96,7 +96,8 @@ margin-bottom: 100px;
       border-style: inherit;
       border-width: inherit;
 /*      border-color: black;*/
-       background-color: #55e7ff;
+ 
+/*       background-color: #55e7ff;*/
        border: 10px solid #201148;
 /*      position: absolute;*/
 /*      bottom: 96px;*/
@@ -108,13 +109,13 @@ margin-bottom: 100px;
     
       height: 950px;
       overflow: auto;
-    overflow-x:top;}
+    }
 
 
 
 #projetinf0{
     
-    height: 700px;
+    height: 1000px;
     
 }
 
@@ -134,7 +135,7 @@ margin-bottom: 100px;
     background-color: #00ccfd;
        border: 2px solid #201148;
     width: 650px;
-    height: 700px;
+    height: 800px;
    
         
 /*    float: right;*/
@@ -162,6 +163,209 @@ li{
      justify-content: space-around;
 
 }
+
+
+/*la version ipad   */
+
+/*@media screen and (min-width: 100px){*/
+@media only screen and (max-width: 1075px) {
+    
+    body{
+   
+          
+    
+      }
+    
+    
+    
+    
+    
+    
+    #projet{border: 2px;
+/*
+      border-style: inherit;
+      border-width: inherit;
+*/
+/*      border-color: black;*/
+   
+/*       background-color: #55e7ff;*/
+       border: 10px solid #201148;
+/*      position: absolute;*/
+/*      bottom: 96px;*/
+    
+/*    width: 100%;*/
+/*    float: right;*/
+/*     margin-left: 10%; */
+    margin-bottom: 100px;
+    padding-bottom: 1500px;    
+       margin-left: 0%; 
+        
+        
+    width: auto;    
+      height: auto;
+
+    
+    overflow:hidden;
+       
+        
+        
+    }
+
+
+
+#projetinf0{
+    
+    height: 2000px;
+    
+}
+    
+    
+    
+    ul{
+  display:grid;
+/*     flex-wrap:wrap-reverse;*/
+/*    float: left;*/
+    justify-content: flex-start;
+list-style: none;
+   
+ 
+}
+    
+    
+    
+    
+    .vidéo00{
+    background-color: red;
+    width: 300px;
+    height: 100px;
+    border: 2px solid #201148;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 50%;
+        margin-right: 50%;
+   
+    
+}
+
+.vidéoDescript00{
+    background-color: #00ccfd;
+       border: 2px solid #201148;
+    width: 175%;
+    height: 550px;
+    margin-left: 10%;
+        margin-right: 10%;
+        
+/*    float: right;*/
+}
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      .BigTitle{
+      
+
+    height: 75px;
+       width: 34%;
+
+      border: 10px outset #201148;
+}
+
+
+
+.SmallTitle{
+
+    height: 40px;
+     width: 18%;
+   border: 5px ridge #2011a2;
+/*        border-left: 7px outset #201148;*/
+
+}
+  
+    
+}
+
+
+/*la version iphone   */
+
+/*@media screen and (min-width: 100px){*/
+@media only screen and (max-width: 550px) {
+  
+    
+  body{
+   
+          
+    
+      }
+    
+    
+    
+    
+        .BigTitle{
+      
+
+    height: 75px;
+       width: 34%;
+
+      border: 10px outset #201148;
+}
+
+
+
+.SmallTitle{
+
+    height: 40px;
+     width: 18%;
+   border: 5px ridge #2011a2;
+/*        border-left: 7px outset #201148;*/
+
+}
+    
+    
+    
+    
+      .vidéo00{
+    background-color: red;
+    width: 200px;
+    height: 100px;
+    border: 2px solid #201148;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 10%;
+        margin-right: 20%;
+   
+    
+}
+
+.vidéoDescript00{
+    background-color: #00ccfd;
+       border: 2px solid #201148;
+    width: 360px;
+    height: 700px;
+    margin-left: -10%;
+        margin-right: 0%;
+        
+/*    float: right;*/
+}
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+}
+    
     
     
     
