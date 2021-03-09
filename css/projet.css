@@ -1,5 +1,10 @@
 body{
      background-color: #55e7ff;
+    background-image: url(../image/MAYASketchChararcter.png);
+
+     background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
     border-radius: 0px 10px 0px 0px;
     height: auto;
     width: auto;
@@ -10,6 +15,16 @@ body{
 /*     padding: 0 auto;*/
 /*    justify-content: space-between;*/
 /*position:sticky;*/
+      opacity: 0,5;
+   
+}
+
+
+
+#global{
+     background-color: #55e7ff;
+/*    opacity: 0.5;*/
+ 
    
 }
 
@@ -17,6 +32,7 @@ body{
 
 header{
    background-color: #55e7ff;
+      opacity: 1;
     
     
     border: 10px solid #201148;
@@ -64,6 +80,7 @@ margin-bottom: 100px;
   font-size: 25px;
     float: right;
       border: 10px outset #201148;
+      opacity: 1;
 }
 
 
@@ -78,6 +95,7 @@ margin-bottom: 100px;
     font-size: 20px;
    border: 5px ridge #2011a2;
 /*        border-left: 7px outset #201148;*/
+      opacity: 1;
 
 }
     
@@ -109,6 +127,7 @@ margin-bottom: 100px;
     
       height: 1500px;
       overflow: auto;
+      opacity: 1;
     }
 
 
@@ -116,7 +135,7 @@ margin-bottom: 100px;
 #projetinf0{
     
     height: 1450px;
-    
+      opacity: 1;
 }
 
 
@@ -127,7 +146,7 @@ margin-bottom: 100px;
 /*    border: 2px solid #201148;*/
     margin-bottom: 110px;
     margin-left: 125px;
-   
+     opacity: 1;
     
 }
 
@@ -135,7 +154,7 @@ iframe{
     
 width: 400px;
     height: 250px;
-    
+      opacity: 1;
 }
 
 
@@ -143,7 +162,7 @@ video{
     
 width: 400px;
     height: 250px;
-    
+      opacity: 1;
 }
 
 
@@ -154,7 +173,7 @@ width: 400px;
     width: 650px;
     height: 800px;
    
-        
+          opacity: 1;
 /*    float: right;*/
 }
 
@@ -171,14 +190,14 @@ ul{
     justify-content: flex-start;
 list-style: none;
    
- 
+   opacity: 1;
 }
 
 li{
  margin-left: 30px;
     margin-right: 30px;
      justify-content: space-around;
-
+  opacity: 1;
 }
 
 
