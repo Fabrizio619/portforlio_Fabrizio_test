@@ -1,6 +1,9 @@
 body{
    background-color: #2011a2;
-    
+       background-image: url(../image/N0MBlender.png);
+     background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
     border-radius: 0px 10px 0px 0px;
     height: auto;
     width: auto;
