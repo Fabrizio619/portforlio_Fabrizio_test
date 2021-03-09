@@ -131,6 +131,12 @@ margin-bottom: 100px;
     
 }
 
+iframe{
+    
+width: 400px;
+    height: 250px;
+    
+}
 
 
 video{
@@ -268,6 +274,15 @@ list-style: none;
           margin-bottom: 100px;
     
 }
+    
+    
+    iframe{
+    
+ width: 300px;
+    height: 200px;
+          margin-bottom: 100px;
+}
+    
 
 .vidéoDescript00{
     background-color: #00ccfd;
@@ -329,6 +344,17 @@ list-style: none;
     
     
     
+        #projet{
+
+            
+            height: 2500px;
+       
+        
+        
+    }
+    
+    
+    
     
         .BigTitle{
       
@@ -349,6 +375,21 @@ list-style: none;
 /*        border-left: 7px outset #201148;*/
 
 }
+    
+    
+    
+    
+        
+    
+        iframe{
+    
+ width: 300px;
+    height: 200px;
+          margin-bottom: 100px;
+    
+}
+    
+    
     
         video{
     
