@@ -70,6 +70,7 @@ background-color: #00ccfd;
     text-align:center;
   font-size: 38px;
          opacity: 1;
+    float: left;
     
 }
 
@@ -79,6 +80,7 @@ background-color: #00ccfd;
      width: 150px;
   text-align: center;
     vertical-align:middle;
+    float: left;
 }
 
 
@@ -246,6 +248,7 @@ background-color: #00ccfd;
     text-align:center;
   font-size: 38px;
          opacity: 1;
+        float: none;
 }
 
 .SmallTitle{
@@ -253,6 +256,7 @@ background-color: #00ccfd;
     height: 55px;
      width: auto;
   text-align: center;
+    float: none;
  
 }
     
