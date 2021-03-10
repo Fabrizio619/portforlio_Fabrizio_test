@@ -115,7 +115,7 @@ margin-bottom: 100px;
       border-width: inherit;
 /*      border-color: black;*/
  
-       background-color: red;
+/*       background-color: red;*/
        border: 10px solid #201148;
 /*      position: absolute;*/
 /*      bottom: 96px;*/
@@ -125,7 +125,7 @@ margin-bottom: 100px;
      margin-left: auto; 
     margin-bottom: 25px;
     
-      height: 1150px;
+      height: 850px;
       overflow: auto;
     overflow-y: hidden;
       opacity: 1;
@@ -174,7 +174,7 @@ width: 400px;
     background-color: #00ccfd;
        border: 2px solid #201148;
     width: 650px;
-    height: 800px;
+    height: 450px;
    
           opacity: 1;
 /*    float: right;*/
@@ -242,7 +242,7 @@ li{
         
         
     width: auto;    
-      height: auto;
+      height: 4000px;
 
     
     overflow:hidden;
@@ -369,7 +369,7 @@ list-style: none;
         #projet{
 
             
-            height: 2500px;
+            height: 5500px;
        
         
         
