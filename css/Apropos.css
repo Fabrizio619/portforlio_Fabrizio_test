@@ -1,3 +1,14 @@
+@font-face { font-family: Computerfont ; src: url('Computerfont.otf'); } 
+
+
+@font-face { font-family: Retro Computer; src: url('Retro Computer.otf'); } 
+
+
+
+
+/*font*/
+
+
 
 /*la taille régulier*/
 
@@ -5,12 +16,26 @@
 
 body{
     background-color: #55e7ff;
+    background-image: url(../image/MayaCercle.png);
+      background-position: center;
+  background-repeat: no-repeat;
+  background-size:100% 100% ;
     border: 11px inset #201148;  
       margin: 0 auto;
      padding: 0 auto;
       height: auto;
     width: auto;
+       background-color: #6290B8;
+      border: 10px outset #4B6073;
 }
+
+
+a {
+  
+font-family: Computerfont;
+color: orange;
+    
+} 
 
 
 header{
@@ -26,59 +51,63 @@ header{
 
 }
 
-/*
-header{
-    
-    
- background-color: green;
-    width: 330px;
-    height: 85px;
-   
-    
-  border-radius: 0px 10px 0px 0px;
 
-border: 15px outset #706765;
-    
-   
-    margin-bottom: -15px;
-    margin-right: auto;
-    
-
-}
-*/
 
 
 
 
 
   .BigTitle{
-      background-color: #55e7ff;
+         background-color: #6290B8;
+      border: 7px outset orange;
 
     height: 100px;
        width: 35%;
 /*    width: 400px;*/
 /*    text-align: center;*/
     text-align:center;
-  font-size: 25px;
+  font-size: 50px;
     float: left;
-      border: 10px outset #201148;
+  
       opacity: 1;
+      
+          -webkit-transition: border 2s;
+    transition: background-color border 2s;
+}
+
+.BigTitle:hover {
+/*    color: white;*/
+  background-color: #201148; 
+     border: 8px inset  #00ccfd;  
+     opacity: 1.6;
 }
 
 
 
 .SmallTitle{
- background-color: #55e7ff;
+   background-color: #6290B8;
+      border: 6px outset #4B6073;
     height: 50px;
      width: 20%;
   text-align: center;
 /*    vertical-align:middle;*/
       float: left;
-    font-size: 20px;
-   border: 5px ridge #2011a2;
+    font-size: 30px;
+ 
 /*        border-left: 7px outset #201148;*/
       opacity: 1;
+    
+    
+           -webkit-transition: border 2s;
+    transition: background-color border 2s;
 
+}
+
+.SmallTitle:hover {
+/*    color: white;*/
+  background-color: #201148; 
+     border: 7px inset  #00ccfd;  
+     opacity: 1.6;
 }
    
 
@@ -91,7 +120,8 @@ ul{
 
 
 li{
-  
+     background-color: #6290B8;
+      border: 10px outset #4B6073;
 font-size: 30px;
  list-style: none;
         display:initial;
@@ -109,38 +139,92 @@ font-size: 30px;
 
 
 
-#présentation{  background-color: #00ccfd;
+#présentation{     
+      border: 10px outset #4B6073;
     width: 238px;
+
     height: 750px;
     
     margin-right: auto;
     
     border: 11px inset #201148; 
-    
+     background-color: #737373;
     
 }
 
 
+/*les bar de skill*/
+
+.container{
+     width: 90%;
+  background-color: #4B6073; 
+    border-radius: 0px 25px 0px 0px;
+  
+}
+
+.skills {
+  text-align: right;
+/*
+    margin-top: 50px;
+    margin-left: 25px;
+*/
+  padding-top: 15px;
+  padding-bottom: 10px;
+     margin-bottom: 25px; 
+  color: white;
+    
+  
+    
+   border: 3px solid #4B6073;
+    
+
+background-color: #9BAEBC;
+    width: 100%;
+     border-radius: 0px 25px 25px 0px; 
+    
+    text-align: left;
+    font-size: 15px; 
+}
+
+.MAYA {width: 90%; background-color: #4CAF50;}
+.UNITY {width: 75%; background-color: #4CAF50;}
+.Illustrator {width: 85%; background-color: #4CAF50;}
+.Photoshop {width: 75%; background-color: #4CAF50;}
+.Premiere {width: 75%; background-color: #4CAF50;}
+.auditions {width: 70%; background-color: #4CAF50;}
+.HTML {width: 65%; background-color: #4CAF50;}
+.PHP {width: 50%; background-color: #4CAF50;}
+
+
+/*-----------*/
+
+
 #resume{  
-    background-color: #00ccfd;
+         background-color: #6290B8;
+      border: 10px outset #4B6073;
+      border-radius: 0px 15px 15px 50px; 
+/*      border: 10px outset #4B6073;*/
    width: 72%;
     height: 900px;
     margin-left:25%;
     
-    margin-top: -750px;
-   
-    border: 5px outset #201148;
+    margin-top: -752px;
+
     
+    font-size: 30px;
+    font-stretch:normal;
 }
 
 
 
-#cv{  background-color: #00ccfd;
-     border: 5px outset #201148;
+#cv{     background-color: #9BAEBC;
+      border: 10px outset #4B6073;
     width: 350px;
     height: 250px;
     margin-top: 50px;
     margin-left: auto;
+    font-size: 30px;
+    text-align: center;
 }
 
 /*}*/
@@ -156,28 +240,83 @@ font-size: 30px;
     .BigTitle{
 
     height: 80px;
-    width: 200px;
-/*    text-align: center;*/
-    text-align:center;
-  font-size: 25px;
+    width: 30%;
+    text-align: center;
+
+  font-size: 35px;
     float: left;
+        border-color: orange; 
 }
 
 .SmallTitle{
 
     height: 50px;
-     width: 17%;
+     width: 20%;
   text-align: center;
 /*    vertical-align:middle;*/
       float: left;
-    font-size: 20px;
+    font-size: 25px;
 
 }
     
     
+    
+    
+    
+/*les bar de skill*/
+
+.container{
+     width: 80%;
+
+    border-radius: 0px 25px 0px 0px;
+    
+}
+
+.skills {
+  text-align: right;
+/*
+    margin-top: 50px;
+    margin-left: 25px;
+*/
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: white;
+    
+   border-radius: 25px;
+    
+   border: 3px solid black;
+    
+
+
+    width: 100%;
+     border-radius: 0px 25px 25px 0px; 
+    
+    text-align: left;
+    font-size: 10px; 
+}
+
+.MAYA {width: 90%;}
+.UNITY {width: 75%; }
+.Illustrator {width: 85%; }
+.Photoshop {width: 75%; }
+.Premiere {width: 75%; }
+.auditions {width: 70%; }
+.HTML {width: 65%; }
+.PHP {width: 45%; }
+
+
+/*-----------*/    
+    
+    
+    
+h2{  
+ font-size: 15px;
+}   
 
     
 #présentation{  
+/*       background-color: #6290B8;*/
+      border: 10px outset #4B6073;
 /*    width: 170px;*/
     width: 22%;
     height: 550px;
@@ -201,13 +340,17 @@ font-size: 30px;
     margin-top: -570px;
    
     border: 10px outset  #201148;
+     border-radius: 0px 0px 25px 0px; 
     
+    font-size: 23px;
+       font-stretch:ultra-condensed;
 }
     
     
     
     #cv{  
-     border: 5px outset #201148;
+        background-color: #6290B8;
+      border: 10px outset #4B6073;
     width: auto;
     height: 150px;
     margin-top: 50px;
@@ -222,7 +365,7 @@ font-size: 30px;
 /*la version iphone   */
 
 /*@media screen and (min-width: 100px){*/
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 650px) {
   
     
     header{
@@ -239,27 +382,55 @@ font-size: 30px;
 }
     
        
+   
     .BigTitle{
-
-    height: 50px;
-    width: 150px;
+   background-color: #6290B8;
+      border: 10px outset orange;
+    height: 90px;
+    width: auto;
 /*    text-align: center;*/
     text-align:center;
-  font-size: 28px;
-    float: left;
-        
-      
+  font-size: 38px;
+         opacity: 1;
+        float: none;
 }
 
 .SmallTitle{
-
-    height: 30px;
-    max-width: auto;
+    background-color: #6290B8;
+      border: 10px outset #4B6073;
+    height: 65px;
+     width: auto;
   text-align: center;
-    vertical-align:middle;
-      float: left;
-    font-size: 13px;
+    float: none;
+ 
 }
+    
+    
+#MenuGroupe {
+  
+
+/*    margin-top:335px; */
+    
+}   
+    
+    
+li{
+  
+font-size: 30px;
+ list-style: none;
+        display:block;
+
+   background-color: #6290B8;
+      border: 5px outset #4B6073;
+  background-color: #00ccfd;
+    width: 300px;
+    height: 150px;
+    float:none;
+   
+    
+}
+    
+   
     
     
     
@@ -270,13 +441,62 @@ font-size: 30px;
 */
     
     
+    
+/*les bar de skill*/
+
+.container{
+     width: 100%;
+
+    border-radius: 0px 0px 0px 0px;
+    
+}
+
+.skills {
+  text-align: right;
+/*
+    margin-top: 50px;
+    margin-left: 25px;
+*/
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+    
+   border-radius: 25px;
+    
+   border: 3px solid black;
+    
+
+
+    width: 100%;
+     border-radius: 0px 25px 25px 0px; 
+    
+    text-align: left;
+    font-size: 9px; 
+}
+
+.MAYA {width: 90%; }
+.UNITY {width: 75%;}
+.Illustrator {width: 85%; }
+.Photoshop {width: 75%; }
+.Premiere {width: 75%; }
+.auditions {width: 70%; }
+.HTML {width: 65%; }
+.PHP {width: 45%; }
+
+
+/*-----------*/    
+    
+    
+    
 #présentation{  
     width: auto;
     height: 275px;
     
     margin-right: auto;
     
-    border: 11px inset  #201148; 
+    border: 11px inset  #201148;
+    
+    padding-bottom: 275px;
     
     
 }    
@@ -284,25 +504,26 @@ font-size: 30px;
 #resume{  
 
     width: auto;
-    height: 600px;
+    height: 400px;
  float:none;
    margin-left:0%; 
     
     margin-top: 0px;
    
     border: 5px outset  #201148;
-    
-    
+    font-size: 18px;
+       font-stretch:normal;
 }
     
-       #cv{  background-color: #00ccfd;
-     border: 5px outset #201148;
+       #cv{    background-color: #9BAEBC;
+      border: 5px outset #4B6073;
     width: auto;
     height: 150px;
     margin-top: 1px;
     margin-left: auto;
    text-align: center;
-   
+    font-size: 22px;
+}
 }
     
     
