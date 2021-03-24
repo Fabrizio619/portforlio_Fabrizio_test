@@ -16,7 +16,10 @@
 
 
 body{
-    background-color: #00ccfd;
+       background-image: url(../image/Menu_Maya.png);
+     background-position: center;
+  background-repeat: no-repeat;
+  background-size:100% 100% ;
 /*    border-radius: 0px 10px 0px 0px;*/
 /*
     height: auto;
@@ -33,35 +36,67 @@ body{
 }
 
 
+a {
+  
+
+color: orange;
+    
+} 
+
 
   .BigTitle{
-      background-color: #55e7ff;
+           background-color: #6290B8;
+      border: 10px outset #4B6073;
 
     height: 100px;
        width: 35%;
 /*    width: 400px;*/
 /*    text-align: center;*/
     text-align:center;
-  font-size: 25px;
+      font-family: Computerfont;
+  font-size: 50px;
     float: left;
-      border: 10px outset #201148;
+     
       opacity: 1;
+      
+          -webkit-transition: border 2s;
+    transition: background-color border 2s;
+}
+
+.BigTitle:hover {
+/*    color: white;*/
+  background-color: #201148; 
+     border: 8px inset  #00ccfd;  
+     opacity: 1.6;
 }
 
 
 
 .SmallTitle{
- background-color: #55e7ff;
+      background-color: #6290B8;
+      border: 5px outset #4B6073;
     height: 50px;
      width: 20%;
   text-align: center;
 /*    vertical-align:middle;*/
       float: left;
-    font-size: 20px;
-   border: 5px ridge #2011a2;
+     font-family: Computerfont;
+  font-size: 35px;
+
 /*        border-left: 7px outset #201148;*/
       opacity: 1;
 
+    
+     -webkit-transition: border 2s;
+     transition: background-color border 2s;
+    
+}
+
+.SmallTitle:hover {
+/*    color: white;*/
+  background-color: #201148; 
+     border: 8px inset  #00ccfd;  
+     opacity: 1.6;
 }
    
 
@@ -73,17 +108,13 @@ ul{
 }
 
 li{
-  
-font-size: 30px;
- list-style: none;
-        display:initial;
 
-border: 5px outset #201148;
-  background-color: #00ccfd;
-    width: 50%;
-    height: 150px;
-    float: right;
-   
+list-style: none;
+flex-direction: column;
+padding-top: 20px;
+padding-bottom: 20px;
+float: 10px;
+    
     
 }
 
@@ -102,7 +133,8 @@ h1{
 
 
 #contact{
-    background-color: #00ccfd;
+         background-color: #6290B8;
+      border: 5px outset #4B6073;
     width: 250px;
     height: 90px;
      float: right;
@@ -114,7 +146,7 @@ h1{
 /*      margin-right: auto;*/
     
     
-    border: 5px inset #201148;  
+    
     
 }
 
@@ -161,7 +193,8 @@ h1{
 
 
 section{
-background-color: #201148;
+     background-color: #6290B8;
+      border: 10px outset #4B6073;
     width: 95%;
       height: 700px;
     
@@ -178,7 +211,8 @@ background-color: #201148;
 
 #barLeft {
     
-    background-color: #2011a2;
+         background-color: #6290B8;
+/*      border: 10px outset #4B6073;*/
     width: 5%;
     height: 100%;
     float: left;
@@ -186,7 +220,39 @@ background-color: #201148;
      border: 4px solid #201148;
 }
 
+#grey {
+     
+    display: none;
+ 
+    
+ 
+}
 
+
+/*les logo*/
+
+.logo {
+    
+    height: 50px;
+    width: 50px;
+
+/*
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 50px;
+*/
+
+}
+
+#LogoGauche {
+    display: block
+
+}
+
+#LogoBas {
+    display: none;
+
+}
 
 
  .corpsFoCo{
@@ -197,28 +263,45 @@ background-color: #201148;
 
 #coordonées {
     
-    background-color: #00ccfd;
-    width: 45%;
+        background-color: #6290B8;
+      border: 2px outset #4B6073;
+    width: 92%;
     height: 100%;
     float: left;
+  
 
-     border: 2px solid #201148;
+     
 }
 
+
+
+p{
+    
+   
+    font-size: 35px;
+
+     
+}
+
+
+/*
 #formulaire {
     
-   background-color: #00ccfd;
+        background-color: #6290B8;
+      border: 2px outset #4B6073;
     width: 45%;
     height: 100%;
     float: right;
     
-     border: 2px solid #201148;
+   
 }
+*/
 
 h2 {
     
 text-align: center;
-    border-bottom: 5px solid 	#201148;
+    
+      border: 5px outset #4B6073;
     
 }
 
@@ -237,19 +320,38 @@ text-align: center;
     
     
     .BigTitle{
- background-color: #00ccfd;
+     background-color: #6290B8;
+      border: 6px outset #4B6073;
     width: 40%;
     height: 125px;
-    font-size: 40px;
+    font-size: 35px;
 
 }
 
 .SmallTitle{
- background-color: #00ccfd;
+     background-color: #6290B8;
+      border:5px outset #4B6073;
     height: 55px;
      width: 16%;
+    font-size: 25px;
  
 }
+    
+    
+    
+    .logo {
+    
+    height: 30px;
+    width: 30px;
+
+/*
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 50px;
+*/
+
+}
+
     
     
     section{
@@ -277,7 +379,7 @@ background-color: #201148;
 /*la version iphone   */
 
 /*@media screen and (min-width: 100px){*/
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 650px) {
   
      body{
     
@@ -285,14 +387,19 @@ background-color: #201148;
     } 
     
     
+
+     
+     header{
     
-    
-    
+       margin-bottom: 260px;
+    } 
     
     
 #barLeft {
      
     display: none;
+ 
+    
  
 }
     
@@ -300,7 +407,8 @@ background-color: #201148;
     
     
     #grey {
-    margin-top: 1061px;
+        display: block;
+    margin-top: 100px;
     background-color: #201148;    
  
     width: 100%;
@@ -309,16 +417,55 @@ background-color: #201148;
 
      border: 2px solid #201148;
     
+        
+    display: flex;    
+        
 
 }
     
     
     
+p{
+    
+   
+    font-size: 20px;
+
+     
+}
+
+    
+
+    
+    .logo {
+    
+    height: 50px;
+    width: 50px;
+    padding-right: 50%;
+    padding-left: 30%;
+
+/*
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 50px;
+*/
+
+}
+    
+  #LogoGauche {
+    display: none
+
+}
+
+#logo {
+    display: block;
+
+}  
+    
     #coordonées {
     
-    background-color: #00ccfd;
+ 
     width: 100%;
-    height: 75%;
+    height: 80%;
 
 
      border: 2px solid #201148;
@@ -328,6 +475,7 @@ background-color: #201148;
     
     
     
+/*
     
 
 #formulaire {
@@ -339,27 +487,52 @@ background-color: #201148;
      border: 2px solid #201148;
 }
     
+*/
     
     
     
     
     
-    
-        .BigTitle{
- background-color: #00ccfd;
-    width: 40%;
-    height: 100px;
-    font-size: 30px;
+  
+    .BigTitle{
 
+    height: 95px;
+    width: auto;
+    text-align: center;
+    text-align:center;
+  font-size: 38px;
+         opacity: 1;
+        float: none;
 }
 
 .SmallTitle{
- background-color: #00ccfd;
-    height: 40px;
-     width: 16%;
-    font-size: 20px;
+
+    height: 65px;
+     width: auto;
+  text-align: center;
+    float: none;
  
 }
+    
+    
+ 
+    
+    
+li{
+  
+font-size: 30px;
+ list-style: none;
+        display:block;
+
+
+    width: 300px;
+    height: 150px;
+    float:none;
+   
+    
+}
+    
+   
    
     
 
@@ -367,6 +540,11 @@ background-color: #201148;
     
 font-size: 13px;
 }    
+    
+    
+    
+
+
     
     
 }
