@@ -34,7 +34,7 @@ a {
   
 font-family: Computerfont;
 color: orange;
-    
+ letter-spacing: 5px;   
 } 
 
 
@@ -108,6 +108,7 @@ header{
   background-color: #201148; 
      border: 7px inset  #00ccfd;  
      opacity: 1.6;
+    letter-spacing: 10px;
 }
    
 
