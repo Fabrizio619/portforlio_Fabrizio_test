@@ -38,7 +38,7 @@ body{
 
 a {
   
-
+letter-spacing: 5px;
 color: orange;
     
 } 
@@ -97,6 +97,7 @@ color: orange;
   background-color: #201148; 
      border: 8px inset  #00ccfd;  
      opacity: 1.6;
+    letter-spacing: 10px;
 }
    
 
