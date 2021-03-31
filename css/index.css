@@ -53,7 +53,7 @@ body{
 
 a {
   
-
+letter-spacing: 5px;
 color: orange;
 /* font-family:Retro Computer;     */
 } 
@@ -132,7 +132,7 @@ background-color: #6290B8;
     
     
        -webkit-transition: border 2s;
-  transition: background-color border 2s ;
+  transition: background-color border 2s letter-spacing;
      opacity: 1.6;
 }
 
@@ -145,7 +145,7 @@ background-color: #6290B8;
      border: 8px inset  #00ccfd;  
      opacity: 1.6;
     color: #27CADE;
-         
+         letter-spacing: 10px;
 }
  
 
