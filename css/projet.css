@@ -33,7 +33,7 @@ body{
 
 a {
   
-
+letter-spacing: 5px;
 color: orange;
     
 } 
@@ -125,7 +125,8 @@ margin-bottom: 100px;
   background-color: #201148; 
      border: 8px inset  #00ccfd;  
      opacity: 1.6;
-    color: #27CADE
+    color: #27CADE;
+        letter-spacing: 10px;
 }
 
 
